@@ -18,3 +18,7 @@ function addElementToEndOfArray(someArray, someElement){
   someArray2 = [...someArray, someElement]
   return someArray2
 }
+function destructivelyAddElementToEndOfArray(someArray, someElement){
+  someArray2 = [...someArray, someElement]
+  return someArray2
+}
